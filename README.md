@@ -1,6 +1,6 @@
 **Autori**:Marco Speranza, Max Leon Carlesi, Filippo Ferretto
 
-**Azienda**: [Fanlab Vr](https://www.veronafablab.it/), [Hangar](http://www.hangar-lab.com/)
+**Azienda**: [Fanlab Vr](https://www.veronafablab.it/)
 
 # visualizzatore_dati_dht22
 ---
@@ -13,7 +13,11 @@ In questo progetto dobbiamo visualizzare i dati di 2 sensori in uno schermo con 
 * Arduino Uno
 * 2 DHT22
 * [Schermo LCD I2C 20 x 4](https://www.amazon.it/AZDelivery-HD44780-Interfaccia-Caratteri-Gratuito/dp/B07N8CGM9G/ref=sr_1_1_sspa?keywords=lcd+20x4+i2c&qid=1561016672&s=gateway&sr=8-1-spons&psc=1)
+
+* StapDown per alimentare l'arduino da 12 a 8 volt (abbiamo tenuto il voltaggio piu alto per l'assorbimento di corrente dovuto all'illuminazione dell'LCD)
+![StapDown](StapDown.jpeg "Configurazione StapDown")
 * Saldatrice
+![prodotto_fase_finale](prodotto_fase_finale.jpeg "")
 * Altri Materiali
 ##  Descrizione:
 Per scrivere il codice abbiamo diviso il lavoro in dui parti che consisteva nel creare/trovare prima il codice per scrivere sullo schermo e per prendere i dati dal sensore per poi mettere tutto insieme e creare il prodotto finale. Successivamente era una questione di saldare e inserire in un scatola.
@@ -96,13 +100,13 @@ void loop() {
   Serial.print(hif);
   Serial.println(F("°F"));
 }
-
-
 ```
 
-
-Per poter vedere il codice completo si guardi il codice all'interno dell cartella visualizzatore_dati. Dopo aver saldato come ultimo passaggio sarebbe quello di inserire il tutto all'interno della scatola per poi essere usato effettivamente nella realta.
+Per poter vedere il codice completo si guardi il codice all'interno dell cartella visualizzatore_dati.
+![prodotto_saldato](saldatura.jpeg "prodotto in saldatura")
+Dopo aver saldato come ultimo passaggio sarebbe quello di inserire il tutto all'interno della scatola per poi essere usato effettivamente nella realta.
 ![prodotto_finito_serra](prodotto_finito_serra.jpeg "prodotto finito" )
+
 ### Fonti:
 * https://github.com/adafruit/DHT-sensor-library/blob/master/examples/DHTtester/DHTtester.ino
 * https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/

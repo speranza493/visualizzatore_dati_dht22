@@ -102,7 +102,7 @@ void loop() {
 
 
 Per poter vedere il codice completo si guardi il codice all'interno dell cartella visualizzatore_dati. Dopo aver saldato come ultimo passaggio sarebbe quello di inserire il tutto all'interno della scatola per poi essere usato effettivamente nella realta.
-
+![prodotto_finito_serra](prodotto_finito_serra.jpeg "prodotto finito" )
 ### Fonti:
 * https://github.com/adafruit/DHT-sensor-library/blob/master/examples/DHTtester/DHTtester.ino
 * https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/

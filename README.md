@@ -11,7 +11,7 @@ In questo progetto dobbiamo visualizzare i dati di 2 sensori in uno schermo con 
 * [Ide arduino](https://www.arduino.cc/en/Main/Software)
 * [libreria_liquidcristal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
 * Arduino Uno
-* 2 DHT22
+* 2 [DHT22](https://www.amazon.it/SODIAL-digitale-temperatura-sensore-umidita/dp/B06XBR11PG/ref=asc_df_B06XBR11PG/?tag=googshopit-21&linkCode=df0&hvadid=103287946379&hvpos=1o1&hvnetw=g&hvrand=2326611870175516298&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=20620&hvtargid=pla-348003783493&psc=1)
 * [Schermo LCD I2C 20 x 4](https://www.amazon.it/AZDelivery-HD44780-Interfaccia-Caratteri-Gratuito/dp/B07N8CGM9G/ref=sr_1_1_sspa?keywords=lcd+20x4+i2c&qid=1561016672&s=gateway&sr=8-1-spons&psc=1)
 
 * StapDown per alimentare l'arduino da 12 a 8 volt (abbiamo tenuto il voltaggio piu alto per l'assorbimento di corrente dovuto all'illuminazione dell'LCD)
@@ -101,7 +101,7 @@ void loop() {
 }
 ```
 
-Per poter vedere il codice completo si guardi il codice all'interno dell cartella visualizzatore_dati.
+Per poter vedere il **codice completo** si guardi il codice all'interno dell cartella visualizzatore_dati.
 ![prodotto_saldato](saldatura.jpeg "prodotto in saldatura")
 Dopo aver saldato come ultimo passaggio sarebbe quello di inserire il tutto all'interno della scatola per poi essere usato effettivamente nella realta.
 ![prodotto_finito_serra](prodotto_finito_serra.jpeg "prodotto finito" )

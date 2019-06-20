@@ -17,7 +17,6 @@ In questo progetto dobbiamo visualizzare i dati di 2 sensori in uno schermo con 
 * StapDown per alimentare l'arduino da 12 a 8 volt (abbiamo tenuto il voltaggio piu alto per l'assorbimento di corrente dovuto all'illuminazione dell'LCD)
 ![StapDown](StapDown.jpeg "Configurazione StapDown")
 * Saldatrice
-![prodotto_fase_finale](prodotto_fase_finale.jpeg "")
 * Altri Materiali
 ##  Descrizione:
 Per scrivere il codice abbiamo diviso il lavoro in dui parti che consisteva nel creare/trovare prima il codice per scrivere sullo schermo e per prendere i dati dal sensore per poi mettere tutto insieme e creare il prodotto finale. Successivamente era una questione di saldare e inserire in un scatola.

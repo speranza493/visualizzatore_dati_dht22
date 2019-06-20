@@ -47,6 +47,7 @@ void loop()
 ```
 ##### DHT22:
 Per il codice del dht per leggere le informazioni abbiamo usato questo :
+![Sensore_DHT22](DHT22-PinOut.png "dht22")
 ```cpp
 
 
@@ -98,7 +99,7 @@ void loop() {
 
 
 ```
-![Sensore_DHT22](DHT22-PinOut.png "dht22")
+
 
 Per poter vedere il codice completo si guardi il codice all'interno dell cartella visualizzatore_dati. Dopo aver saldato come ultimo passaggio sarebbe quello di inserire il tutto all'interno della scatola per poi essere usato effettivamente nella realta.
 
